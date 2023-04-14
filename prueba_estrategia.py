@@ -31,5 +31,6 @@ class tiempo:
         self.volume = volume
 
 
+
 t1 = tiempo(data['date'][1], data['open'][1], data['high'][1], data['low'][1], data['close'][1], data['volume'][1])
 
