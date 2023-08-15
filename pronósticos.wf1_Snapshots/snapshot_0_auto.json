@@ -1,0 +1,232 @@
+
+{
+	"commands" : "",
+	"description" : "",
+	"label" : "save",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\oscar local\\trading\\pronósticos.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "W(Fri)",
+				"_last_update" : [ 738731.7116435185, "07/31/2023 17:04" ],
+				"_name" : "Untitled",
+				"_obj_count" : 40,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 739001.0, "04/26/2024" ],
+						"_obs_min" : [ 731735.0, "06/04/2004" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "AUDUSD_ADF",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "AUDUSD_CLOSE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "AUDUSD_CLOSE_F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "AUDUSD_CLOSE_FAR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "AUDUSD_HIGH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "AUDUSD_LOW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "AUDUSD_OPEN",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "AUTO_FAR_AUDUSD",
+						"_type" : "SPOOL"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "EURUSD_ADF",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "EURUSD_AUTO_FAR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_FAR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_FT1",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_FT2",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_FT3",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_FT4",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_HIGH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_LOW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_OPEN",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "FAR1_AUDUSD",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "FT1_EURUSD",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "FT2_EURUSD",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "FT3_EURUSD",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "FT4_EURUSD",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "GBPUSD_ADF",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "GBPUSD_CLOSE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GBPUSD_HIGH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GBPUSD_LOW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GBPUSD_OPEN",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "USDCAD_ADF",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "USDCAD_CLOSE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "USDCAD_HIGH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "USDCAD_LOW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "USDCAD_OPEN",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "USDJPY_ADF",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "USDJPY_CLOSE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "USDJPY_HIGH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "USDJPY_LOW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "USDJPY_OPEN",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 1039
+			}
+		]
+	}
+}
