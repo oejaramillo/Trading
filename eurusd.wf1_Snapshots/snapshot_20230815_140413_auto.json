@@ -1,0 +1,72 @@
+
+{
+	"commands" : 
+	[
+		"EURUSD_AUTO_FAR.rename eurusd_close",
+		"{%group}.rename stats",
+		"close STATS"
+	],
+	"description" : "",
+	"label" : "save",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\oscar local\\trading\\eurusd.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "W(Fri)",
+				"_last_update" : [ 738746.5521180555, "08/15/2023 13:15" ],
+				"_name" : "Untitled",
+				"_obj_count" : 7,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 739001.0, "04/26/2024" ],
+						"_obs_min" : [ 731735.0, "06/04/2004" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_HIGH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_LOW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_OPEN",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "STATS",
+						"_type" : "GROUP"
+					}
+				],
+				"_obs_count" : 1039
+			}
+		]
+	}
+}
