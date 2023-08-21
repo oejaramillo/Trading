@@ -1,6 +1,6 @@
 
 {
-	"commands" : "",
+	"commands" : null,
 	"description" : "",
 	"label" : "save",
 	"workbook_meta" : 
@@ -11,9 +11,9 @@
 			
 			{
 				"_frequency" : "W(Fri)",
-				"_last_update" : [ 738751.6696643519, "08/20/2023 16:04" ],
+				"_last_update" : [ 738752.5298263889, "08/21/2023 12:42" ],
 				"_name" : "Untitled",
-				"_obj_count" : 12,
+				"_obj_count" : 15,
 				"_objects" : 
 				[
 					
@@ -23,6 +23,16 @@
 						"_obs_max" : [ 738868.0, "12/15/2023" ],
 						"_obs_min" : [ 731735.0, "06/04/2004" ],
 						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "ARIMASQ1",
+						"_type" : "GRAPH"
+					},
+					
+					{
+						"_name" : "ARIMASQ2",
+						"_type" : "GRAPH"
 					},
 					
 					{
@@ -42,6 +52,11 @@
 					
 					{
 						"_name" : "EURUSD_CLOF",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOF2",
 						"_type" : "SERIES"
 					},
 					
