@@ -1,11 +1,8 @@
 
 {
-	"commands" : 
-	[
-		"eurusd_close.autoarma(maxar=7, maxma=7, maxsar=2, maxsma=2, forclen=20, agraph, atable, etable, fgraph, eqname=arsq2) eurusd_close_arsq2f c"
-	],
+	"commands" : "",
 	"description" : "",
-	"label" : "auto",
+	"label" : "save",
 	"workbook_meta" : 
 	{
 		"_name" : "c:\\edu\\maestria\\torcuatto di tella\\quinto trimestre\\tópicos en econometría avanzada\\trading\\eurusd.wf1",
@@ -14,9 +11,9 @@
 			
 			{
 				"_frequency" : "W(Fri)",
-				"_last_update" : [ 738751.6458796297, "08/20/2023 15:30" ],
+				"_last_update" : [ 738751.6696643519, "08/20/2023 16:04" ],
 				"_name" : "Untitled",
-				"_obj_count" : 11,
+				"_obj_count" : 12,
 				"_objects" : 
 				[
 					
@@ -41,6 +38,11 @@
 					{
 						"_name" : "C",
 						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOF",
+						"_type" : "SERIES"
 					},
 					
 					{
