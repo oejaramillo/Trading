@@ -1,6 +1,12 @@
 
 {
-	"commands" : null,
+	"commands" : 
+	[
+		"series eurusd_close_moecocq2f = (eurusd_close_moeco2_1f + eurusd_close_moeco2_2f)/2",
+		"mesq1.results",
+		"smpl 7/28/2023 12/15/2023\nmesq1.forecast(e, g) eurusd_close_moecosq1f\nsmpl 6/04/2004 12/15/2023",
+		"mesq1.forecast(e, g) eurusd_close_moecosq1f"
+	],
 	"description" : "",
 	"label" : "auto",
 	"workbook_meta" : 
@@ -11,9 +17,9 @@
 			
 			{
 				"_frequency" : "W(Fri)",
-				"_last_update" : [ 738753.4718981482, "08/22/2023 11:19" ],
+				"_last_update" : [ 738753.6926041667, "08/22/2023 16:37" ],
 				"_name" : "Untitled",
-				"_obj_count" : 29,
+				"_obj_count" : 44,
 				"_objects" : 
 				[
 					
@@ -51,12 +57,7 @@
 					},
 					
 					{
-						"_name" : "ARIMACQ1_1",
-						"_type" : "SPOOL"
-					},
-					
-					{
-						"_name" : "ARIMACQ1_2",
+						"_name" : "ARIMACQ2",
 						"_type" : "SPOOL"
 					},
 					
@@ -106,12 +107,62 @@
 					},
 					
 					{
+						"_name" : "EURUSD_CLOSE_ARCQ2_1F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_ARCQ2_2F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_ARCQ2F",
+						"_type" : "SERIES"
+					},
+					
+					{
 						"_name" : "EURUSD_CLOSE_ARSQ1F",
 						"_type" : "SERIES"
 					},
 					
 					{
 						"_name" : "EURUSD_CLOSE_ARSQ2F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECO1_1F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECO1_2F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECO2_1F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECO2_2F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECOCQ1",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECOCQ2F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECOSQ1F",
 						"_type" : "SERIES"
 					},
 					
@@ -131,6 +182,26 @@
 					},
 					
 					{
+						"_name" : "MECQ1_1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "MECQ1_2",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "MECQ2_1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "MECQ2_2",
+						"_type" : "EQUATION"
+					},
+					
+					{
 						"_name" : "MESQ1",
 						"_type" : "EQUATION"
 					},
@@ -138,6 +209,16 @@
 					{
 						"_name" : "MESQ2",
 						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "MOECOCQ1",
+						"_type" : "SPOOL"
+					},
+					
+					{
+						"_name" : "MOECOCQ2",
+						"_type" : "SPOOL"
 					},
 					
 					{

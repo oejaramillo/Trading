@@ -1,26 +1,19 @@
 
 {
-	"commands" : 
-	[
-		"arimacq1_2.display",
-		"smpl 7/28/2023 12/15/2023\narcq2_2.forecast(e, g) eurusd_close_arcq2_2f\nsmpl 6/04/2004 12/15/2023",
-		"smpl 7/28/2023 12/15/2023\narcq2_1.forecast(e, g) eurusd_close_arcq2_1f\nsmpl 6/04/2004 12/15/2023",
-		"close ARCQ2_1",
-		"eurusd_close.fcasteval(trainsmpl=\"6/04/2004 7/28/2023\", evalsmpl=\"7/28/2023 12/15/2023\", mean, trmean, median, ols, mse, mseranks, trim=5) eurusd_close_arcq2_1f eurusd_close_arcq2_2f"
-	],
+	"commands" : null,
 	"description" : "",
-	"label" : "auto",
+	"label" : "save",
 	"workbook_meta" : 
 	{
-		"_name" : "c:\\edu\\maestria\\torcuatto di tella\\quinto trimestre\\tópicos en econometría avanzada\\trading\\eurusd.wf1",
+		"_name" : "c:\\edu\\maestria\\torcuatto di tella\\quinto trimestre\\tópicos en econometría avanzada\\trading\\mandar\\modelos arima y econometricos.wf1",
 		"_pages" : 
 		[
 			
 			{
 				"_frequency" : "W(Fri)",
-				"_last_update" : [ 738753.4756712962, "08/22/2023 11:24" ],
+				"_last_update" : [ 738753.6940046296, "08/22/2023 16:39" ],
 				"_name" : "Untitled",
-				"_obj_count" : 31,
+				"_obj_count" : 45,
 				"_objects" : 
 				[
 					
@@ -58,12 +51,7 @@
 					},
 					
 					{
-						"_name" : "ARIMACQ1_1",
-						"_type" : "SPOOL"
-					},
-					
-					{
-						"_name" : "ARIMACQ1_2",
+						"_name" : "ARIMACQ2",
 						"_type" : "SPOOL"
 					},
 					
@@ -123,12 +111,57 @@
 					},
 					
 					{
+						"_name" : "EURUSD_CLOSE_ARCQ2F",
+						"_type" : "SERIES"
+					},
+					
+					{
 						"_name" : "EURUSD_CLOSE_ARSQ1F",
 						"_type" : "SERIES"
 					},
 					
 					{
 						"_name" : "EURUSD_CLOSE_ARSQ2F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECO1_1F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECO1_2F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECO2_1F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECO2_2F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECOCQ1",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECOCQ2F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECOSQ1F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_MOECOSQ2",
 						"_type" : "SERIES"
 					},
 					
@@ -148,6 +181,26 @@
 					},
 					
 					{
+						"_name" : "MECQ1_1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "MECQ1_2",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "MECQ2_1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "MECQ2_2",
+						"_type" : "EQUATION"
+					},
+					
+					{
 						"_name" : "MESQ1",
 						"_type" : "EQUATION"
 					},
@@ -155,6 +208,16 @@
 					{
 						"_name" : "MESQ2",
 						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "MOECOCQ1",
+						"_type" : "SPOOL"
+					},
+					
+					{
+						"_name" : "MOECOCQ2",
+						"_type" : "SPOOL"
 					},
 					
 					{
