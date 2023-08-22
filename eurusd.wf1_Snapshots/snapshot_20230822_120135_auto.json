@@ -1,0 +1,193 @@
+
+{
+	"commands" : 
+	[
+		"{%equation}.rename mecq1_1",
+		"mecq1_1.ls(optmethod=opg) dlog(eurusd_close) c ar(1 to 3) ma(1 to 2) spread yield_10y",
+		"mecq1_1.ls(optmethod=opg) dlog(eurusd_close) c ar(1 to 3) ma(1 to 2) spread yield_10y",
+		"{%equation}.ls(optmethod=opg) log(eurusd_close) c ar(1 to 7) ma(1 to 3) spread yield_10y"
+	],
+	"description" : "",
+	"label" : "auto",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\edu\\maestria\\torcuatto di tella\\quinto trimestre\\tópicos en econometría avanzada\\trading\\eurusd.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "W(Fri)",
+				"_last_update" : [ 738753.5010648149, "08/22/2023 12:01" ],
+				"_name" : "Untitled",
+				"_obj_count" : 31,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 738868.0, "12/15/2023" ],
+						"_obs_min" : [ 731735.0, "06/04/2004" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "ARCQ1_1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARCQ1_2",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARCQ2_1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARCQ2_2",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARIMACQ1",
+						"_type" : "SPOOL"
+					},
+					
+					{
+						"_name" : "ARIMACQ2",
+						"_type" : "SPOOL"
+					},
+					
+					{
+						"_name" : "ARIMASQ1",
+						"_type" : "GRAPH"
+					},
+					
+					{
+						"_name" : "ARIMASQ2",
+						"_type" : "GRAPH"
+					},
+					
+					{
+						"_name" : "ARSQ1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "ARSQ2",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_ARCQ1_1F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_ARCQ1_2F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_ARCQ1F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_ARCQ2_1F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_ARCQ2_2F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_ARSQ1F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_CLOSE_ARSQ2F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_HIGH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_LOW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EURUSD_OPEN",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "MECQ1_1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "MESQ1",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "MESQ2",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "MOECOSQ1",
+						"_type" : "GRAPH"
+					},
+					
+					{
+						"_name" : "MOECOSQ2",
+						"_type" : "GRAPH"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SPREAD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "STATS",
+						"_type" : "GROUP"
+					},
+					
+					{
+						"_name" : "YIELD_10Y",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 1020
+			}
+		]
+	}
+}
